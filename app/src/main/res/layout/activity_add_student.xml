@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#43CD80"
+    tools:context="com.example.shehani.myapplication.AddStudent">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableRight="@drawable/add"
+    android:text="Add Student"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:textSize="30dp"
+    android:id="@+id/textView"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="40dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Student Name "
+        android:layout_marginTop="52dp"
+        android:id="@+id/edname"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Student Age "
+        android:id="@+id/edage"
+        android:layout_marginTop="78dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  NIC No "
+        android:layout_marginTop="108dp"
+        android:id="@+id/ednic"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" ADDRESS "
+        android:id="@+id/eddob"
+        android:layout_marginTop="138dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Course Name "
+        android:id="@+id/edcname"
+        android:layout_marginTop="168dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:text="SAVE"
+        android:textSize="22dp"
+        android:padding="7dp"
+        android:background="#f83a3a"
+        android:id="@+id/button"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/edcname"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
